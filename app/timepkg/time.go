@@ -79,8 +79,11 @@ func Str2Date1() {
 func Str2Date2() {
 	// 将字符时间: 2020-09-12 14:34:10 转成 20200912143410
 	strDate := "2020-09-12 14:34:10"
+
 	// 1.先转成时间类型
 	location, _ := time.ParseInLocation("2006-01-02 15:04:05", strDate, time.Local)
+	fmt.Printf("location 类型:%T, 值: %+v\n", location, location)
+
 	// 2.再格式化
 	format := location.Format("20060102150405")
 	fmt.Printf("类型:%T, 值: %+v\n", format, format)

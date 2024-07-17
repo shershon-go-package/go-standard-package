@@ -23,17 +23,17 @@ func TestTime(t *testing.T) {
 
 // 获取时间
 func TestGetTime(t *testing.T) {
-	//packageuse.GetTime1()
-	//packageuse.GetTime2()
-	//packageuse.GetTime3()
-	//packageuse.GetTime4()
-	//packageuse.GetTime5()
+	//timepkg.GetTime1()
+	//timepkg.GetTime2()
+	//timepkg.GetTime3()
+	//timepkg.GetTime4()
+	//timepkg.GetTime5()
 	timepkg.GetTime6()
 }
 
 // 字符串转时间
 func TestStr2Date(t *testing.T) {
-	//packageuse.Str2Date1()
+	timepkg.Str2Date1()
 	timepkg.Str2Date2()
 }
 
@@ -44,18 +44,18 @@ func TestCompareDate(t *testing.T) {
 
 // 时间计算
 func TestCalculate(t *testing.T) {
-	//packageuse.CalculateDate1()
+	//timepkg.CalculateDate1()
 	timepkg.CalculateDate2()
 }
 
 // 定时器
 func TestTicker(t *testing.T) {
-	//packageuse.Ticker1()
+	//timepkg.Ticker1()
 	timepkg.Ticker2()
 }
 
 // 延迟执行
 func TestDelayExec(t *testing.T) {
-	//packageuse.DelayExec1()
+	//timepkg.DelayExec1()
 	timepkg.DelayExec2()
 }
